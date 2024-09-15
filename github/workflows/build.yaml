@@ -1,0 +1,12 @@
+name: build 1st workshop
+
+on: push
+
+jobs: 
+    greetings:
+        run-on: ubuntu-latest
+        steps: 
+            - name: Hello World
+              run: exho "hello World"
+            - name: echo server.js
+            run: node server.js
