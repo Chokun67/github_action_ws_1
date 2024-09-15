@@ -14,4 +14,4 @@ jobs:
         node-version: 20
         cache: 'npm'
     - name: echo server.js
-      run: node server.js
+      run: node server/server.js
